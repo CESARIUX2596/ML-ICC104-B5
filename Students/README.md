@@ -90,7 +90,9 @@ git merge upstream/main
 git push origin main
 ```
 
-Need a quick reference while working? Use the Git cheat sheet: <https://education.github.com/git-cheat-sheet-education.pdf>
+Need a quick reference while working? Use the Pandas cheat sheet for DataFrame commands: <https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf>
+
+Optional Git quick reference: <https://education.github.com/git-cheat-sheet-education.pdf>
 
 ---
 
