@@ -1,4 +1,4 @@
-# Lab - Session 2: Exploratory Data Analysis (Titanic)
+# Lab1: Exploratory Data Analysis (Titanic)
 
 **Course:** ICC104 Machine Learning · **Unit:** I · **Session:** 2 of 7
 **Format:** Individual, Jupyter notebook, submitted via pull request
