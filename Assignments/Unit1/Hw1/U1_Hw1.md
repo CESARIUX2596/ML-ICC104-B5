@@ -1,4 +1,4 @@
-# Homework 2: Titanic Data Questions
+# Homework 1: Titanic Data Questions
 
 **Course:** ICC104 Machine Learning
 **Unit:** I
