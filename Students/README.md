@@ -49,7 +49,7 @@ ML-ICC104-B5/
 
 ```bash
 # 1. Start from the latest version
-git pull origin main
+git pull origin master
 
 # 2. Do your work inside Students/your-student-id/
 
@@ -63,14 +63,14 @@ git add Students/your-student-id/homeworkN.ipynb
 git commit -m "Complete homework N: <short description>"
 
 # 6. Push to your fork
-git push origin main
+git push origin master
 ```
 
 Then open a **pull request**:
 
 1. Go to your fork on GitHub.
 2. Click **Compare & pull request** (or **Pull requests → New pull request**).
-3. Confirm: base = course repo `main` ← compare = your fork `main`.
+3. Confirm: base = course repo `master` ← compare = your fork `master`.
 4. Title it clearly, e.g. `"Fulanito Perez — Homework 2"`.
 5. Click **Create pull request**.
 
@@ -86,8 +86,8 @@ Do this **before starting new work**, whenever the instructor adds material:
 
 ```bash
 git fetch upstream
-git merge upstream/main
-git push origin main
+git merge upstream/master
+git push origin master
 ```
 
 Need a quick reference while working? Use the Pandas cheat sheet for DataFrame commands: <https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf>
@@ -133,7 +133,7 @@ This is graded on completing the workflow correctly, not on the content of your 
 | Problem | Fix |
 |---|---|
 | `Permission denied` when pushing | You're pushing to `upstream` instead of `origin`. Push to `origin` — that's your fork. |
-| `git push` rejected, says "fetch first" | Someone (or you, elsewhere) added commits you don't have. Run `git pull origin main` first. |
+| `git push` rejected, says "fetch first" | Someone (or you, elsewhere) added commits you don't have. Run `git pull origin master` first. |
 | Not sure what changed | `git status` — always safe to run, shows staged/unstaged files. |
 | Committed something you shouldn't have | Ask the instructor before force-pushing or rewriting history — don't try to fix it alone. |
 
